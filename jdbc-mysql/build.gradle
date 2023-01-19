@@ -5,7 +5,7 @@ dependencies {
     implementation project(":jdbc")
 
     implementation("io.micronaut.sql:micronaut-jooq")
-    runtimeOnly("mysql:mysql-connector-java:8.0.29")
+    runtimeOnly("mysql:mysql-connector-java:8.0.32")
     runtimeOnly('org.flywaydb:flyway-mysql:8.5.13')
 
     testImplementation project(':core').sourceSets.test.output
